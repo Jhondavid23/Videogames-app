@@ -1,0 +1,68 @@
+
+
+
+
+.container{    
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+
+.information{
+    width: 50%;
+    height: auto;
+    
+   
+    background-color: var(--background-green);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    z-index: 2;
+    position:relative;
+}
+
+.image{
+    background: url('../../image/background-home.jpg');
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.button{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px 10px;
+    background: #f2eee0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-align: justify;
+    align-items: center;
+}
+
+.button:hover{
+    color: var(--very-light-ping);
+}
+.h1{
+    font-size: 50px;
+ 
+}
+
+.section{
+    padding-top: 40px;
+    font-size: 10px;
+    
+}
+.section2{
+    position: absolute;
+    bottom: 10%;
+    font-size: 10px;
+}

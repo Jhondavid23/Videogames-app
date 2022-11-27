@@ -1,0 +1,20 @@
+
+.container{
+    display: flex;
+    height: 10vh;
+    background-color: var(--background-color-black);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div{
+    padding: 10px;
+}
+
+.select{
+    border-radius: 10px;
+    color: white;
+    background-color: var(--background-color-black);
+    border: 2px solid var(--white);
+}

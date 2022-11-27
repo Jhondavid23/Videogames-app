@@ -1,0 +1,39 @@
+
+.ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.li{
+    border: 1px solid var(--background-green);
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+    margin-left: 4px;
+    color: var(--white);
+    list-style: none;
+    justify-content: center;
+}
+
+.a{
+    color: var(--very-linght-pink);
+    text-decoration: none;
+}
+
+.image{
+    height: 10px;
+}
+
+.li:active{
+    background-color: var(--background-green);
+}
+.li:hover{
+    box-shadow: 0 0 5px 0 var(--background-green);
+}
+.a:focus{
+    font-weight: bold;
+    color: var(--white);
+
+}
