@@ -11,8 +11,6 @@ En este proyecto he trabajado duro para garantizar la calidad y la estabilidad d
 
 Para instalar el proyecto
 
->>>client =  npm install
->>>client =  npm start
+client =  npm install  +  npm start
 
->>>server =  npm install
->>>server =  npm start
+server =  npm install + npm start
