@@ -11,12 +11,15 @@ import noresults from '../../image/no-results (1).png'
 export class ContainerCard extends Component {
     constructor(props) {
         super(props)
+        
         this.state = {
             loading: false,
             gamePerPage: 15,
             filter: ""
         }
     }
+
+    
 
     componentDidMount() {
         this.setState({ loading: true })
